@@ -1,10 +1,11 @@
-import './App.css'
+import { TodoForm } from './components/TodoForm.tsx'
+import { TodoList } from './components/TodoList.tsx'
 
 export const App = () => {
   return (
-    <div className="app-container">
-      <h1>React Query</h1>
-      <img className="app-logo" src="../public/react-query.svg" alt="logo"/>
-    </div>
+    <>
+      <TodoForm/>
+      <TodoList/>
+    </>
   )
 }
